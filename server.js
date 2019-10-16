@@ -24,6 +24,8 @@ app.post('/upload', (req, res) => {
         if(err) {
             return res.send('Ocorreu um erro.')
         }
+
+        res.end('Concluído com Sucesso.')
     })
 })
 
